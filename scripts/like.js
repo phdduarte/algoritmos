@@ -10,7 +10,7 @@ function delay(){
 }
 
 async function myAsyncFunction(){
-  for (var i = 0; i < 400; i++) {
+  for (var i = 0; i < 500; i++) {
     const button = document.getElementsByClassName('button Lts($ls-s) Z(0) CenterAlign Mx(a) Cur(p) Tt(u) Bdrs(50%) P(0) Fw($semibold) focus-button-style Bxsh($bxsh-btn) Expand Trstf(e) Trsdu($normal) Wc($transform) Pe(a) Scale(1.1):h Scale(.9):a Bgi($g-ds-background-like):a')[0]
     button.click()
     console.log(i)
